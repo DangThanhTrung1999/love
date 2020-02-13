@@ -4,11 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script>
-      window.onload = function() {
-        var context = new AudioContext();
-      }
-      </script>
+  
     <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/style.css">
       <link rel='stylesheet' href="css/carousel.css" />
@@ -63,7 +59,11 @@
 
       </div>
     </div>
-    <audio src="./sound/anhThanhNien.mp3" autoplay></audio>
+    <!-- <audio src="./sound/anhThanhNien.mp3" autoplay></audio> -->
+    <audio>
+      <source src="./sound/anhThanhNien.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
     <script
   src="https://code.jquery.com/jquery-3.4.1.js"
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
