@@ -4,14 +4,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+
     <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="css/style.css">
       <link rel='stylesheet' href="css/carousel.css" />
       <link rel="stylesheet" href="css/spinload.css">
       <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Pacifico" />
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
+      <script>
+        window.onload = function() {
+          var context = new AudioContext();
+        }
+        </script>
+    </head>
   <body>
     <div class="wrapper" >
       <!-- Preloader -->
@@ -34,17 +39,16 @@
           <button id="yes" type="button" class="btn btn-danger btn-lg">Yêu ơi là yêuuuuuu  </button>
           <button id="no" type="button" class="btn btn-info btn-lg">Cậu mơ à :333 </button>
         </div>
-        <div style="padding-top: 300px; padding-left: calc(100%/4); margin: auto;">
+        <div style="padding-top: 200px; margin: auto;">
           <div id="drag-container">
             <div id="spin-container">
               <!-- Add your images (or video) here -->
-              <img src="https://images.pexels.com/photos/206395/pexels-photo-206395.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-              <img src="https://images.pexels.com/photos/1391498/pexels-photo-1391498.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-              <img src="https://images.pexels.com/photos/1382731/pexels-photo-1382731.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-              <img src="https://images.pexels.com/photos/1758144/pexels-photo-1758144.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-              <img src="https://images.pexels.com/photos/1382734/pexels-photo-1382734.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-              <img src="https://images.pexels.com/photos/1462636/pexels-photo-1462636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-              
+              <img src="https://scontent.fhan9-1.fna.fbcdn.net/v/t1.0-0/p370x247/84297157_1088677104802149_3085220341820162048_n.jpg?_nc_cat=109&_nc_oc=AQk82tiEh8fBWhmXXEvQ-jiZ1SZQEBqTGszcNZnw2Kv7qEcUBAukr0cTIhNzdPdqXbo&_nc_ht=scontent.fhan9-1.fna&_nc_tp=6&oh=11f8b664783488cd38b6d249a6d1823e&oe=5EB9749F" alt="">
+              <img src="https://scontent.fhan9-1.fna.fbcdn.net/v/t1.0-9/74309151_1454310241384269_1518717023029297152_n.jpg?_nc_cat=110&_nc_oc=AQk92HtsN_5XyyW5JwhlBlMw0bgRNrt1bUThhcLVlW4IP7DKxK2mXjWdtJYkqPuWKQw&_nc_ht=scontent.fhan9-1.fna&oh=c599610d6122bc35a601a20cd66bce4d&oe=5EB54ACF" alt="">
+              <img src="https://scontent.fhan9-1.fna.fbcdn.net/v/t1.0-9/64471086_898121403857721_3131253436226469888_n.jpg?_nc_cat=105&_nc_oc=AQnehr0fSzI2HXZqGRQfyKJM4RwGheH5b2zjQJ-H25YZMirAmRCses9mj74TE6y8qqQ&_nc_ht=scontent.fhan9-1.fna&oh=535c9d4931f6b74b629b03d44797ae8d&oe=5EFE7FB5" alt="">
+              <img src="https://scontent.fhan9-1.fna.fbcdn.net/v/t1.0-9/s960x960/56219970_1144585115723269_7721839186566709248_o.jpg?_nc_cat=108&_nc_oc=AQkdtMrkzESaNy5UUc8nFMo7tx1TfOnm-4fRFNbTSMVRVjzUaU6TMmpbLcwxpdheImU&_nc_ht=scontent.fhan9-1.fna&_nc_tp=7&oh=3cd32541e1e74d121b533843dc3aa23f&oe=5EBF8FA4" alt="">
+              <img src="https://scontent.fhan9-1.fna.fbcdn.net/v/t1.0-9/56161747_2332423860366362_1014661181589159936_n.jpg?_nc_cat=101&_nc_oc=AQnQHhefDpeh5AdJK7ve_qUzJbh3VYrMW6dG8RUnlxRg1Ll2VmtoLaVmwQ0lVOUdd9A&_nc_ht=scontent.fhan9-1.fna&oh=2ab9b89aba4eeb7f7e88f6f43be333a4&oe=5EC8231A" alt="">
+              <img src="https://scontent.fhan9-1.fna.fbcdn.net/v/t1.0-0/p640x640/77001281_1404284416400758_6751605468809920512_o.jpg?_nc_cat=100&_nc_oc=AQlaD4T7FFcZAssb4f6jqOhZWE-JOTaOuIQk7KOjr_XOEuWXfKPsCrcTYtO8JdwPAl0&_nc_ht=scontent.fhan9-1.fna&_nc_tp=6&oh=007029d0b8fc4d9555f2bcfd5bee54ff&oe=5ED24D99" alt="">
               <!-- Example image with link -->
               <a target="_blank" href="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg">
                 <img src="https://images.pexels.com/photos/139829/pexels-photo-139829.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
@@ -59,9 +63,8 @@
 
       </div>
     </div>
-    <!-- <audio src="./sound/anhThanhNien.mp3" autoplay></audio> -->
-    <audio>
-      <source src="./sound/anhThanhNien.mp3" type="audio/mp3">
+    <audio autoplay>
+      <source src="./sound/AnhThanhNien-HuyR-6205741.mp3" type="audio/mp3">
       Your browser does not support the audio tag.
     </audio>
     <script
@@ -73,6 +76,5 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="js/myJs.js"></script>
     <script src="js/carousel.js"></script>
-  <!-- my name is Trung -->
   </body>
 </html>
